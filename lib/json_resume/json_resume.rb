@@ -15,5 +15,9 @@ module JsonResume
 			@reader = Reader.new(json_input, options)
 			@reader.format!
 		end
+
+    def to_hash
+      return @reader.hash
+    end
 	end
 end
