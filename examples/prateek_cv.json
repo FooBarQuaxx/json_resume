@@ -11,12 +11,12 @@
         "phone": "+1 (512) 698-3649",
         "website": "http://prat0318.github.io",
         "stars": ["Ruby","Python","Git","Cartooning"],
-	"summary": {
-		"points":[
-		"Competent at managing responsibilities in a high-volume atmosphere",
-		"Hard worker, quick learner, and ability to assume responsibility"
-		]
-	},
+    "summary": {
+        "points":[
+        "Competent at managing responsibilities in a high-volume atmosphere",
+        "Hard worker, quick learner, and ability to assume responsibility"
+        ]
+    },
         "github_projects": {
             "details": [
                 {
@@ -32,7 +32,7 @@
                     "tagline": "Live at [Gitator.com](http://gitator.com)",
                     "description": [
                         "Finds relevant repositories based on an user's GitHub profile.",
-		    	"Written in Ruby on Sinatra and uses Github's Octokit gem"
+                "Written in Ruby on Sinatra and uses Github's Octokit gem"
                     ]
                 },
                 {
@@ -79,7 +79,7 @@
             ]
         },
         "education": {
-	    "show_gpa": true,
+        "show_gpa": true,
             "schools": [
                 {
                     "degree": "Master of Science",
@@ -108,7 +108,7 @@
                 {
                     "title": "Graduate Research Assistant",
                     "organisation": "CTR, UT Austin",
-		    "location": "",
+            "location": "",
                     "from": "Sept. 2013",
                     "to": "Jan. 2014",
                     "details": [
@@ -126,7 +126,7 @@
                 {
                     "title": "SDE II (Software Development Engineer II)",
                     "organisation": "Flipkart",
-		    "location": "India",
+            "location": "India",
                     "from": "Apr. 2013",
                     "to": "Jul. 2013",
                     "details": [
@@ -136,7 +136,7 @@
                 {
                     "title": "Software Development Engineer",
                     "organisation": "Flipkart",
-		    "location": "India",
+            "location": "India",
                     "from": "Jun. 2011",
                     "to": "Mar. 2013",
                     "details": [
@@ -156,7 +156,7 @@
                 {
                     "title": "Software Engineer",
                     "organisation": "IBM Software Labs",
-		    "location": "India",
+            "location": "India",
                     "from": "Jul. 2009",
                     "to": "Jun. 2011",
                     "details": [
@@ -181,7 +181,7 @@
                         "Was awarded 1<sup>st</sup> position for the product in [Envision](http://www.ecell-iitkgp.org/envision.php), Product Innovation Contest, IIT KGP.",
                         "Was awarded 1<sup>st</sup> position for the product in Javawise, J2ME s/w Development Contest at IIT Kharagpur, 2008 and 2009 continuously."
                     ]
-                }                
+                }
             ]
         },
         "grad_courses": [
@@ -207,7 +207,7 @@
                 "name": "Graph Theory",
                 "url": "http://cse.iitkgp.ac.in/~agupta/graph/"
             }
-	],
+    ],
         "research_experience": {
             "items": [
                 {
@@ -246,29 +246,29 @@
                 "Microsoft Student Partner of IIT Kharagpur from the period July 08 – June 09."
             ]
         },
-	"papers": {
-	   "items": [
-	   		{
-			"authors":"Michl Dugls, Mrclo Dsconi",
-			"title":"Some exotic dummy title like potentials arising from string compactifications",
-			"misc":"arXiv: 1206.1885, June 2012"
-			} 
-		   ]
-	},
-	"patents": {
-	   "items": [
-		   	{
-			"patent_id":"US Patent X,XXX,634",
-			"url":"",
-			"issuance_date":"September 15, 1992",
-			"title":"Another exotic title like bed cover with an inflatable human form."
-			}
-		   ]
-	},
-	"memberships": {
-	   "committees": [
-			"Member of the ACM awesomest humans secret group, 2008-present"
-		   ]
-	}
+    "papers": {
+       "items": [
+            {
+            "authors":"Michl Dugls, Mrclo Dsconi",
+            "title":"Some exotic dummy title like potentials arising from string compactifications",
+            "misc":"arXiv: 1206.1885, June 2012"
+            }
+           ]
+    },
+    "patents": {
+       "items": [
+            {
+            "patent_id":"US Patent X,XXX,634",
+            "url":"",
+            "issuance_date":"September 15, 1992",
+            "title":"Another exotic title like bed cover with an inflatable human form."
+            }
+           ]
+    },
+    "memberships": {
+       "committees": [
+            "Member of the ACM awesomest humans secret group, 2008-present"
+           ]
+    }
     }
 }

@@ -5,23 +5,23 @@ require 'rest-client'
 require 'json'
 
 module JsonResume
-	class Reader
-		attr_accessor :hash
+  class Reader
+    attr_accessor :hash
 
-		def initialize(json_input, options)
+    def initialize(json_input, options)
       output_type = options[:output_type] || "html" #default html, others latex, md
-			@json_string = case json_input
+      @json_string = case json_input
                when /^(http|https|www)/ then RestClient.get(json_input)
-						   when /\.json$/i then File.read(json_input)
-						   else json_input
-						   end
+               when /\.json$/i then File.read(json_input)
+               else json_input
+               end
       @output_type = output_type
-			begin
-				@hash = JSON.parse(@json_string)
-			rescue JSON::ParserError => e
-				raise Exception, "Either you entered a file without .json extension or JSON string is wrong: "+e.message
-			end
-		end
+      begin
+        @hash = JSON.parse(@json_string)
+      rescue JSON::ParserError => e
+        raise Exception, "Either you entered a file without .json extension or JSON string is wrong: "+e.message
+      end
+    end
 
     def format!
       formatters = {
@@ -32,6 +32,5 @@ module JsonResume
       type = @output_type.to_sym
       @hash = formatters[type].new(@hash).format.hash
     end
-	end
-end    
-
+  end
+end

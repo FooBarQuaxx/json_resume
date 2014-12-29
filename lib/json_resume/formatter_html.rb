@@ -9,7 +9,7 @@ module JsonResume
     def format_autolink str
         str.gsub! /<<(\S*?)>>/, '<a href="\1">\1</a>'
     end
-    
+
     def format_emphasis str
       str.gsub! /\b_(.+?)_\b/, '<i>\1</i>'
       str.gsub! /\*\*(.+?)\*\*/, '<b>\1</b>'
@@ -23,7 +23,7 @@ module JsonResume
 
     def format
       super
-      
+
       return self
     end
 
